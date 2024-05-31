@@ -40,15 +40,15 @@ class _MyHomePageState extends State<MyHomePage> {
       body: ListView(
         children: <Widget>[
           ListTile(
-            leading: Icon(Icons.map),
+            leading: Icon(Icons.mapa),
             title: Text('Map'),
           ),
           ListTile(
-            leading: Icon(Icons.photo_album),
+            leading: Icon(Icons.album de fotos),
             title: Text('Album'),
           ),
           ListTile(
-            leading: Icon(Icons.phone),
+            leading: Icon(Icons.telefono),
             title: Text('Phone'),
           ),
           Center(
